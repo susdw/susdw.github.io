@@ -1,1 +1,90 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Cavagnol - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="name-role">
+                <img src="assets/profile.png" alt="Profile Picture" class="profile-img">
+                <div>
+                    <h1>Carlos Cavagnol</h1>
+                    <p id="role">Fullstack Developer</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <aside class="sidebar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <h1 style="margin-top: 0; font-size: xx-large; text-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);"><b style="color: #b39ddb;">Turning ideas into reality through code.</b></h1>
+        <section id="about">
+            <h2>About Me</h2>
+            <p style="margin-top: 0;">I'm a <b style="color: #b39ddb;">dedicated full-stack and game developer</b> with a passion for building immersive and functional experiences. As one of the co-founders of <b style="color: #b39ddb;">astronova</b>, a game studio focused on
+                horror games, I love bringing ideas to life through code. With a strong foundation in both <b style="color: #b39ddb;">web and game development,</b> I strive to create engaging, user-friendly, and innovative digital experiences.</p>
+            <div style="margin-top: 0" class="languages">
+                <h3>Languages & Tools</h3>
+                <div class="language-icons">
+                    <img src="assets/typescript.png" alt="TypeScript">
+                    <img src="assets/javascript.png" alt="JavaScript">
+                    <img src="assets/html.png" alt="HTML">
+                    <img src="assets/css.png" alt="CSS">
+                    <img src="assets/luau.png" alt="LUA">
+                </div>
+            </div>
+        </section>
+
+        <section id="experiences">
+            <h2>Experiences</h2>
+            <div class="experience-card">
+                <div class="experience-content">
+                    <h3>Co-Founder & Lead Developer – astronova</h3>
+                    <p class="date"> May 2024 - Present</p>
+                    <p>I co-founded astronova, a game studio focused on developing <b style="color: #b39ddb;">immersive horror games.</b> As the lead developer, I manage the technical and creative aspects of game production, from designing mechanics to coding
+                        gameplay systems. I work with coding to bring ideas to life, ensuring an engaging and polished player experience. My role also involves problem-solving, optimizing performance, and exploring innovative horror concepts to make each
+                        game unique.</p>
+                </div>
+                <img src="assets/astronova_icon.png" alt="astronova logo" class="experience-logo">
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" onclick="window.open('https://project1.com', '_blank')">
+                    <h3 style="margin-top: 1px; margin-bottom: 0;">Surveillance</h3>
+                    <p style="margin-top: 0; margin-bottom: 25px;">An immersive psychological horror game made on Roblox.</p>
+                    <button class="view-more">View More</button>
+                </div>
+                <div class="project-card" onclick="window.open('https://project2.com', '_blank')">
+                    <h3 style="margin-top: 1px; margin-bottom: 0;">Dark</h3>
+                    <p style="margin-top: 0; margin-bottom: 25px;">A souls-like platform based 2D metroidvania game.</p>
+                    <button class="view-more">View More</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Carlos Cavagnol. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
